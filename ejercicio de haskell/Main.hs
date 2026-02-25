@@ -4,7 +4,7 @@ import Data.List (intercalate)
 import Data.Time (getCurrentTime)
 import System.Environment (getArgs)
 
--- Sintomas conocidos para un mini diagnostico.
+
 data Diagnostico = Diagnostico
   { sintomas :: [String]
   , recomendacion :: String

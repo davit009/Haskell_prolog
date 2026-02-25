@@ -14,7 +14,7 @@ def append_log(texto: str) -> None:
 
 
 def ejecutar_haskell(sintomas):
-    # Llama al ejecutable de Haskell y recibe JSON por stdout.
+   
     try:
         resultado = subprocess.run(
             [str(EXE), *sintomas],

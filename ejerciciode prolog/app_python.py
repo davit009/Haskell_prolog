@@ -1,4 +1,4 @@
-import re
+﻿import re
 from datetime import datetime
 from pathlib import Path
 
@@ -23,7 +23,7 @@ def normalizar_texto(texto: str) -> str:
 
 
 def to_prolog_atom(texto: str) -> str:
-    # Usa atomos entre comillas para soportar mayusculas y espacios.
+   
     limpio = normalizar_texto(texto).replace("'", "\\'")
     return f"'{limpio}'"
 
